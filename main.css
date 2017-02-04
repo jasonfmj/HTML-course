@@ -2,7 +2,8 @@ header {
   align-items: flex-end;
   background-color: #283f51;
   display: flex;
-  padding: 25px 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 header nav ul {
@@ -60,38 +61,36 @@ li a {
   line-height: 30px;
 }
 
-.art-class {
-  padding-left: 44px;
-  padding-top: 50px;
-  width: 63%;
+.articles-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.art-class2 {
-  text-align: left;
-  padding-left: 44px;
-  width: 63%;
-  margin-top: 110px;
+.articles-section article {
+  display: flex;
 }
 
-.img-class {
-  float: right;
-  margin-top: -290px;
+.articles-section .description-container {
+  width: 60%;
 }
 
-article h1 {
-  font-size: 30px;
-  color: #6f928a;
+.articles-section .contact-info {
+  width: 40%;
 }
 
-article h4 {
-  margin-top: -26px;
-  color: #9aa5ad;
+.contact-box {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.contact-box a {
 
 }
 
-article p {
-  color: #7d7d7d;
+.articles-section img {
+  width: 100%;
 }
+
 
 .foot-class {
   background-color: #283f51;
@@ -127,3 +126,4 @@ footer nav li a {
   color: #fff;
   text-decoration: none; /* remove underline*/
 }
+

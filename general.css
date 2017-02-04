@@ -24,17 +24,18 @@ h1 {
 
 h2 {
   font-size: 34px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 h3 {
   font-size: 28px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 p {
   color: #7d7d7d;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -46,4 +47,11 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+
+
+/* Global classes*/
+.container {
+  padding-left: 60px;
+  padding-right: 60px;
 }
