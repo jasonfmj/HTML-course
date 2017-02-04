@@ -1,0 +1,155 @@
+body {
+    font-family: 'calibri';
+    width: 100%;
+}
+
+h1 {
+    line-height: 1;
+}
+
+header {
+    background-color: #283f51;
+    padding: 27px;    
+}
+
+.logo-container {
+    color: white;
+    float: left;
+    font-family: 'calibri';
+    font-style: normal;
+    line-height: 6px;
+    font-size: 22px;
+    margin-top: -19px;
+    padding-left: 7px;
+
+
+}
+
+.nav-container {
+    text-align: right;  
+}
+
+.nav-container h2 {
+    color: #4d6d6e;
+    padding-top:6px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+
+    }
+
+header nav ul {
+    margin: 0;
+    padding-bottom: 11px;
+    list-style: none;
+}
+
+header nav li {    
+    display: inline-block;
+    margin: 0 10px;     
+}
+
+li a {
+    color: #fff;
+    text-decoration: none; /* remove underline*/
+}
+
+.speak { 
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#a2d5b0), to(#eff0cf));
+    padding: 40px;
+    text-align: center;
+
+}
+
+label h1 {
+    font-size: 49px;
+    font-family: monospace;
+    color: #4a7270;
+    padding: 12px;
+
+}
+
+label h4 {
+    font-size: 23px;
+    margin: 11px;
+    font-family: initial;
+    color: #919590;
+
+}
+
+.art-class {
+    padding-left: 44px;
+    padding-top: 50px;
+    width: 63%;
+
+}
+
+.art-class2 {
+    text-align: left;
+    padding-left: 44px;
+    width: 63%;
+    margin-top: 110px;
+
+
+}
+
+.img-class {
+    float: right;
+    margin-top: -290px;
+
+}
+
+article h1 {
+    font-size: 30px;
+    color: #6f928a;
+
+}
+
+article h4 {
+    margin-top: -26px;
+    color: #9aa5ad;
+
+}
+
+article p {
+    color: #7d7d7d;
+
+}
+
+.foot-class {
+     background-color: #283f51;
+    padding: 39px;    
+    margin-top: 75px;
+    padding-left: 56px;
+    color: #688e84;
+
+
+}
+
+.nav-class2 {
+    text-align: right;  
+}
+
+.nav-class2 h2 {
+    color: #4d6d6e;
+    padding-top:6px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+
+    }
+
+footer nav ul {
+    margin-top: -40px;
+    list-style: none;
+    padding-right: 52px;
+}
+
+footer nav li {    
+    display: inline-block;
+    margin: 0 10px;     
+}
+
+footer nav li a {
+    color: #fff;
+    text-decoration: none; /* remove underline*/
+}
+

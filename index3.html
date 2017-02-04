@@ -1,0 +1,89 @@
+<!-- Doctype: es la version de html que el documento usa -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="this an example" keyword="Styles html css">
+        <title>Styles Conference</title>
+        <!-- no es una buena practica porque no se cachean los estilos -->
+        <!-- Correcto -->
+        <link rel="stylesheet" href="styles3.css">
+
+        <!-- esto tambien es una mala practica -->
+        <script>
+            console.log('test hola');
+        </script>
+        <!-- Esto puede ir aqui pero no es buena practica porque el resto de elementos no existe -->
+        <!--<script src="js/main.js"></script>-->
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <h1>
+                    STYLES 
+                    <br> 
+                    CONFERENCE
+                </h1>                
+            </div>
+            <div class="nav-container">
+                <h2>Aug 24th-26th-Chicago, IL</h2>
+                <nav class="nav-class">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SPEAKERS</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">VENUE</a></li>
+                        <li><a href="#">REGISTER</a></li>
+                    </ul>                    
+                </nav>
+            </div>
+        </header>        
+        <label>
+        <div class="speak">
+            <h1>Speakers</h1>
+            <h4>We're happy to welcome over twenty speakers to present on the industry's latest technologies</h4>
+            <h4>Prepare for an inspiration extravaganza.</h4>
+        </div>
+        </label>
+        <section>            
+            <article>
+                <div class="art-class">
+                        <h1>Chris Mills </h1>
+                        <h4>HEAVY METAL CODING</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed velit et sapien sagittis pellentesque at scelerisque velit. Fusce non molestie magna, non iaculis ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris accumsan mattis magna, at placerat tellus tempus imperdiet. Nam semper eros sed velit molestie tristique. Curabitur mattis metus sed consectetur tempor. Curabitur interdum, arcu sed convallis tempor, libero risus dapibus dolor, id mollis nibh purus sit amet purus. Pellentesque feugiat nibh venenatis, porta lectus sed, ultricies tortor. Ut tincidunt, leo a auctor mattis, lorem eros efficitur quam, nec consectetur enim mi nec metus. Ut vitae velit velit.</p>
+                        <br></br>
+                        <h4>ABOUT CHRIS</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum metus nisi, ut sagittis justo imperdiet eget. Pellentesque suscipit tempus malesuada. Nam a rhoncus ante. In hac habitasse platea dictumst. Integer scelerisque pretium ex, quis malesuada nulla porta vel. Etiam maximus ullamcorper turpis in viverra. Donec porttitor sollicitudin velit, quis pretium risus.</p>
+                    </div>
+                    <img src="img/Untitled-1.jpg" class="img-class">
+                    <div class="art-class2">
+                        <h1>Shay Howe</h1>
+                        <h4>LESS IS MORE: HOW CONTRAINTS CULTIVATE GROWTH</h4>
+                        <p>Vivamus placerat eros ex, euismod mollis ligula aliquam vitae. Sed quis tincidunt risus, in imperdiet erat. Curabitur ut augue rutrum, lacinia mi nec, egestas est. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis et elit nec nunc tempor lobortis vitae eu odio. Cras a lectus euismod, pellentesque lacus non, mollis ante. Praesent tincidunt orci at feugiat gravida. In hac habitasse platea dictumst. Duis in sapien non justo egestas finibus et in felis. Cras feugiat sodales est euismod facilisis. Aliquam mauris nisi, efficitur eget elementum id, porta feugiat justo. Etiam et mauris ac orci mattis eleifend.</p>
+                        <br></br>
+                        <h4>ABOUT SHAY</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fermentum metus nisi, ut sagittis justo imperdiet eget. Pellentesque suscipit tempus malesuada. Nam a rhoncus ante. In hac habitasse platea dictumst. Integer scelerisque pretium ex, quis malesuada nulla porta vel. Etiam maximus ullamcorper turpis in viverra. Donec porttitor sollicitudin velit, quis pretium risus.</p>
+                    </div>
+                    <img src="img/Untitled-2.jpg" class="img-class">
+            </article>                                  
+        </section>    
+        <footer >
+            <div class="foot-class">
+                <h4>© Styles Conference</h4>
+                <nav class="nav-class2">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SPEAKERS</a></li>
+                        <li><a href="#">SCHEDULE</a></li>
+                        <li><a href="#">VENUE</a></li>
+                        <li><a href="#">REGISTER</a></li>
+                    </ul>                    
+                </nav>
+
+            </div>
+
+        </footer>    
+        <!-- Correcto -->
+        
+    </body>
+</html>
